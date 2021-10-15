@@ -1,0 +1,106 @@
+* { margin: 0;
+    padding: 0; 
+}
+
+html,body{
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-image: url("/assets/topography.png");
+    font-family: consolas, courier;
+}
+
+a{
+    color: #ff0099;
+}
+
+#status{
+    color: #ff0099;
+}
+    
+header{
+    background-color:#333333;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_links{
+    display: flex;
+}
+
+.nav-item{
+    display: inline-block;
+    padding: 20px;
+}
+
+main{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: "Sofia",serif;
+}
+
+#name{
+    font-size: 4rem;
+}
+
+h2{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 2rem;
+}
+
+article,div{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+p{
+    line-height: 2;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+hr{
+ border:0;
+}
+
+.hr-sect {
+	display: flex;
+	flex-basis: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}  
+
+hr:after {
+    content:"- - -";
+    letter-spacing: 3px; /* Use letter-spacing to increase space between dots*/
+    display: flex;
+    align-items: center;
+
+}
+
+#def{
+    text-align: center;
+}
+
+footer{
+    margin-top: 5%;
+    padding-bottom: 3%;
+    text-align: center;
+}
